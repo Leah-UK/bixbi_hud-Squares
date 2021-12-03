@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+    height:100%;
+    width:100%;
+}
+
+#container {
+    height: 2.7vh;
+    width: 15%;
+    /* padding: 0;
+    margin: 0; */
+    float: left;
+    position: absolute;
+    left: 1.01%;
+    bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mainbar {
+    float: left;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.bar {
+    float: left;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.show_bar {
+    float: left;
+    width: calc(100%/2 - 0.2vh);
+    height: calc(100% - 0.32vh);
+    background-color: rgba(59, 68, 75, 0.9);
+    margin: 0.1vh;
+    overflow: hidden;
+}
+
+.show_bar_2 {
+    float: left;
+    width: calc(100%/3 - 0.2vh);
+    height: calc(100% - 0.32vh);
+    background-color: rgba(59, 68, 75, 0.9);
+    margin: 0.1vh;
+    margin-top: -0.1vh;
+    overflow: hidden;
+}
+.show_bar_3 {
+    float: left;
+    width: calc(100% - 0.2vh);
+    height: 0.5vh;
+    margin-top: -0.2vh;
+    background-color: rgba(59, 68, 75, 0.9);
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+/* .show_bar_2 div, .show_bar_3 div, .show_bar_4 div {
+    width: 100%;
+} */
+
+#VoiceIndicator {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+#VoiceIndicatorTalking {
+    background-color: #b42b2b;
+    width: 100%;
+    height: 100%;
+}
+
+#HungerIndicator {
+    background-color: #ffae00;
+    width: 50%;
+    height: 100%;
+}
+
+#ThirstIndicator {
+    background-color: #1ca3ec;
+    width: 75%;
+    height: 100%;
+}
+
+#OxygenIndicator {
+    background-color: #9700dd;
+    height: 35%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#StaminaIndicator {
+    background-color: #e7d800;
+    height: 100%;
+    width: 100%;
+}
+
+#HealthIndicator {
+    background-color: #49a349;
+    height: 100%;
+    width: 100%;
+}
+
+#ArmourIndicator {
+    background-color: #1d70a7;
+    width: 100%;
+    height: 100%;
+}
